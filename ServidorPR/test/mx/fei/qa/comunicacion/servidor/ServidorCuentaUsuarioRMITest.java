@@ -5,6 +5,7 @@
  */
 package mx.fei.qa.comunicacion.servidor;
 
+import mx.fei.pr.comunicacion.servidor.ServidorCuentaUsuarioRMI;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -13,11 +14,11 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
-import mx.fei.qa.accesoadatos.controller.UsuarioJpaController;
-import mx.fei.qa.accesoadatos.controller.exceptions.IllegalOrphanException;
-import mx.fei.qa.accesoadatos.controller.exceptions.NonexistentEntityException;
-import mx.fei.qa.dominio.actores.UsuarioCliente;
-import mx.fei.qa.sesion.SesionUsuario;
+import mx.fei.pr.accesoadatos.controller.UsuarioJpaController;
+import mx.fei.pr.accesoadatos.controller.exceptions.IllegalOrphanException;
+import mx.fei.pr.accesoadatos.controller.exceptions.NonexistentEntityException;
+import mx.fei.pr.dominio.actores.UsuarioCliente;
+import mx.fei.pr.sesion.SesionUsuario;
 import org.junit.After;
 import org.junit.Test;
 import static org.junit.Assert.*;

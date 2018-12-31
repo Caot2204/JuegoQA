@@ -5,6 +5,7 @@
  */
 package mx.fei.qa.utileria;
 
+import mx.fei.pr.utileria.UtileriaCadena;
 import org.junit.Test;
 import static org.junit.Assert.*;
 

@@ -5,13 +5,14 @@
  */
 package mx.fei.qa.comunicacion.servidor;
 
+import mx.fei.pr.comunicacion.servidor.ServidorCuestionarioRMI;
 import java.rmi.RemoteException;
 import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import mx.fei.qa.dominio.cuestionario.CuestionarioCliente;
-import mx.fei.qa.dominio.cuestionario.PreguntaCliente;
-import mx.fei.qa.dominio.cuestionario.RespuestaCliente;
+import mx.fei.pr.dominio.cuestionario.CuestionarioCliente;
+import mx.fei.pr.dominio.cuestionario.PreguntaCliente;
+import mx.fei.pr.dominio.cuestionario.RespuestaCliente;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.junit.Before;
